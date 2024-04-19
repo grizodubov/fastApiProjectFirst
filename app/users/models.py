@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from app.database import Base
 
+
 # задаем модель которую потом перенесем в БД
 class Users(Base):
     __tablename__ = "users"

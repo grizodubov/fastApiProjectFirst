@@ -1,1 +1,16 @@
 /.env
+.idea/workspace.xml
+.DS_Store
+app/.DS_Store
+app/__pycache__/
+app/bookings/__pycache__/
+app/hotels/__pycache__/
+app/migrations/__pycache__/
+app/migrations/versions/__pycache__/
+app/users/__pycache__/
+/.idea
+/.idea
+.idea/fastApiProject.iml
+.idea/fastApiProject.iml
+.idea/misc.xml
+.idea/workspace.xml

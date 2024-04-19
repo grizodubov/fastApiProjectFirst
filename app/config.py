@@ -6,6 +6,7 @@ from pydantic_settings import BaseSettings
 # from pydantic import root_validator
 from pydantic import PostgresDsn
 
+
 # №1 создаем класс с настройками, назовем Settings и наследуем от pydantic. Валидируем их типы.
 class Settings(BaseSettings):
     DB_HOST: str
@@ -28,6 +29,7 @@ class Settings(BaseSettings):
     # №2 укажем pydantic из какого файла забирать настройки
     class Config:
         env_file = ".env"
+
 
 # №3 Создадим экземпляр класса
 settings = Settings()

@@ -9,6 +9,7 @@ app = FastAPI()
 
 app.include_router(router_bookings)
 
+
 class SHotel(BaseModel):
     address: str
     name: str
@@ -42,6 +43,7 @@ def get_hotels(
         },
     ]
     return hotels
+
 
 class SBooking(BaseModel):
     room_id: int

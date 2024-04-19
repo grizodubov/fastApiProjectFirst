@@ -14,6 +14,7 @@ engine = create_async_engine(settings.DATABASE_URL)
 # №3 Используем движек для создания сесий (транзакций) через сешнмейкер
 async_session_maker = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
 
+
 # №4 раньше в алхимии создавали переменную, теперь это класс от которого будем насловаться при создании моделей
 # в нем будут акумулироваться метаданные о всех таблицах, чтобы можно было удобно работать с миграцией
 class Base(DeclarativeBase):

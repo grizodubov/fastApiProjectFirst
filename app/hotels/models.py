@@ -1,6 +1,7 @@
 from sqlalchemy import JSON, Column, ForeignKey, Integer, String
 from app.database import Base
 
+
 # задаем модель которую потом перенесем в БД
 class Hotels(Base):
     __tablename__ = "hotels"
@@ -11,6 +12,7 @@ class Hotels(Base):
     services = Column(JSON)
     rooms_quantity = Column(Integer, nullable=False)
     image_id = Column(Integer)
+
 
 class Rooms(Base):
     __tablename__ = "rooms"

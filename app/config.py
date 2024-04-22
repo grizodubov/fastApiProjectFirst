@@ -26,6 +26,9 @@ class Settings(BaseSettings):
             f"postgresql+asyncpg://{self.DB_USER}:{self.DB_PASS}@{self.DB_HOST}:{self.DB_PORT}/{self.DB_NAME}"
         )
 
+    SECRET_KEY: str
+    ALGORITHM: str
+
     # №2 укажем pydantic из какого файла забирать настройки
     class Config:
         env_file = ".env"
@@ -38,5 +41,5 @@ settings = Settings()
 # settings.DATABASE_URL = f"postgresql+asyncpg://{settings.DB_USER}:{settings.DB_PASS}@{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
 
 
-print(settings.DB_HOST)
-print(settings.DATABASE_URL)
+# print(settings.DB_HOST)
+# print(settings.DATABASE_URL)

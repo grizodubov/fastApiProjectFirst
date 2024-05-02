@@ -4,13 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6617cf0-0f61-4976-9d37-8bfd1be8f475" name="Changes" comment="user login in progress">
-      <change afterPath="$PROJECT_DIR$/app/users/dependencies.py" afterDir="false" />
+    <list default="true" id="d6617cf0-0f61-4976-9d37-8bfd1be8f475" name="Changes" comment=" auth in progres">
+      <change afterPath="$PROJECT_DIR$/app/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/dao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hotels/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/hotels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastApiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastApiProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bookings/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bookings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/bookings/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/dao/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dao/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hotels/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hotels/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/users/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/users/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/users/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/router.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +63,14 @@
     &quot;FastAPI.fastApiProject.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.127.0.0.1:8000.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,7 +91,6 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="SDK_NAME" value="Python 3.12 (fastApiProjectFirst)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -111,29 +129,27 @@
       <workItem from="1712914374949" duration="16000" />
       <workItem from="1712920350221" duration="2236000" />
       <workItem from="1713167114911" duration="1690000" />
-      <workItem from="1713168942371" duration="11070000" />
-      <workItem from="1713512517924" duration="70000" />
-      <workItem from="1713512599977" duration="9097000" />
-      <workItem from="1713527432804" duration="17000" />
-      <workItem from="1713527466399" duration="23331000" />
+      <workItem from="1713168942371" duration="10212000" />
+      <workItem from="1713273440907" duration="1603000" />
+      <workItem from="1713275080566" duration="1051000" />
+      <workItem from="1713276424114" duration="8174000" />
+      <workItem from="1713338258675" duration="9121000" />
+      <workItem from="1713353134562" duration="20180000" />
+      <workItem from="1713607487685" duration="2942000" />
+      <workItem from="1713864127622" duration="33267000" />
+      <workItem from="1714031502220" duration="21000" />
+      <workItem from="1714118982057" duration="28123000" />
+      <workItem from="1714220205516" duration="8784000" />
     </task>
-    <task id="LOCAL-00001" summary="adding DAO in progress">
+    <task id="LOCAL-00001" summary=" auth in progres">
       <option name="closed" value="true" />
-      <created>1713268647569</created>
+      <created>1713511817733</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1713268647569</updated>
+      <updated>1713511817733</updated>
     </task>
-    <task id="LOCAL-00002" summary="user login in progress">
-      <option name="closed" value="true" />
-      <created>1713540005536</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1713540005536</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,9 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding DAO in progress" />
-    <MESSAGE value="user login in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="user login in progress" />
+    <MESSAGE value=" auth in progres" />
+    <option name="LAST_COMMIT_MESSAGE" value=" auth in progres" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastApiProjectFirst$fastApiProject.coverage" NAME="fastApiProject Coverage Results" MODIFIED="1712921697168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6617cf0-0f61-4976-9d37-8bfd1be8f475" name="Changes" comment=" auth in progres">
-      <change afterPath="$PROJECT_DIR$/app/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/dao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/rooms/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hotels/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/hotels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/images/3.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/fastApiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastApiProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bookings/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bookings/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bookings/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bookings/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dao/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dao/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hotels/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hotels/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/users/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/users/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/dependencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/users/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/users/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/hotels.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/hotels.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

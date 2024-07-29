@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6617cf0-0f61-4976-9d37-8bfd1be8f475" name="Changes" comment="minor changes" />
+    <list default="true" id="d6617cf0-0f61-4976-9d37-8bfd1be8f475" name="Changes" comment=" auth in progres">
+      <change beforePath="$PROJECT_DIR$/.idea/fastApiProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastApiProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/migrations/env.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +155,7 @@
       <workItem from="1721655189625" duration="599000" />
       <workItem from="1721820165486" duration="1081000" />
       <workItem from="1722077604745" duration="11776000" />
-      <workItem from="1722238557413" duration="1441000" />
+      <workItem from="1722238557413" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary=" auth in progres">
       <option name="closed" value="true" />
@@ -159,15 +165,7 @@
       <option name="project" value="LOCAL" />
       <updated>1713511817733</updated>
     </task>
-    <task id="LOCAL-00002" summary="minor changes">
-      <option name="closed" value="true" />
-      <created>1722242940495</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1722242940495</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,8 +174,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" auth in progres" />
-    <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value=" auth in progres" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastApiProjectFirst$fastApiProject.coverage" NAME="fastApiProject Coverage Results" MODIFIED="1712921697168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

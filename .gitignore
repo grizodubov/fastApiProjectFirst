@@ -14,3 +14,8 @@ app/users/__pycache__/
 .idea/fastApiProject.iml
 .idea/misc.xml
 .idea/workspace.xml
+
+app/dao/__pycache__/base.cpython-312.pyc
+app/hotels/rooms/__pycache__/
+app/images/__pycache__/
+app/pages/__pycache__/
